@@ -33,6 +33,7 @@ section::after {
 
 section {
   font-family: Inter, 'Noto Sans JP', sans-serif !important;
+  --color-accent-fg: #007ab0;
 }
 
 pre {
