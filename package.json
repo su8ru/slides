@@ -1,0 +1,21 @@
+{
+  "name": "su8ru-slides",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.md",
+  "scripts": {
+    "dev": "marp -s . --html",
+    "build:clean": "rimraf dist",
+    "build:html": "marp",
+    "build:images": "cpx \"src/**/images/*\" dist",
+    "build": "run-s build:*"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@marp-team/marp-cli": "^3.4.0",
+    "cpx2": "^6.0.1",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^5.0.5"
+  }
+}

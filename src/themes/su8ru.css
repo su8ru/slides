@@ -1,0 +1,44 @@
+/* @theme su8ru */
+
+@import 'default';
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Noto+Sans+JP&display=swap');
+
+@font-face {
+  font-family: "Virgil";
+  src: url("https://excalidraw.com/Virgil.woff2");
+}
+@font-face {
+  font-family: "Cascadia";
+  src: url("https://excalidraw.com/Cascadia.woff2");
+}
+@font-face {
+  font-family: "Assistant";
+  src: url("https://excalidraw.com/Assistant-Regular.woff2");
+}
+
+h1 {
+  color: #63767e;
+}
+
+section::after {
+  content: attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
+}
+
+.columns {
+  color: #272a2c;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+section {
+  font-family: Inter, 'Noto Sans JP', sans-serif !important;
+}
+
+pre {
+  font-size: 0.7rem;
+}
+
+img {
+  background: none !important;
+}
