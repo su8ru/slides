@@ -11,11 +11,7 @@ footer: 2024-08-30 | SAPPORO ENGINEER BASE #03 | #seb_sapporo
 
 2024-08-30 | SAPPORO ENGINEER BASE #03 | #seb_sapporo
 
-<small>
-
 [slides.su8.run/240830-seb03](https://slides.su8.run/240830-seb03)
-
-</small>
 
 ---
 
