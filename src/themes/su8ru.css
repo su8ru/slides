@@ -7,6 +7,10 @@ h1 {
   color: #63767e;
 }
 
+h1 + h2 {
+  margin-top: 0;
+}
+
 section::after {
   content: attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
 }
