@@ -21,7 +21,7 @@ header: ノベルゲームとしての Web フロントエンド | su8ru
 
 # 自己紹介
 
-![bg 100% right:36%](https://su8.run/avatar?s=1080)
+![bg 100% right:30%](https://su8.run/avatar?s=1080)
 
 ## すばる / su8ru
 
