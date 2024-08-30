@@ -8,6 +8,8 @@ footer: © su8ru 2023
 
 - [REST API の型定義とドキュメンテーション](/231215-typesafe-api-client)
   @ 2023-12-15 合同 LT 会
+- [ノベルゲームとしての Web フロントエンド](/240830-seb03)
+  @ 2024-08-30 SAPPORO ENGINEER BASE #03
 
 [su8ru.dev](https://su8ru.dev)
 [su8ru/slides](https://github.com/su8ru/slides)
