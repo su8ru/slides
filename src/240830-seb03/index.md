@@ -41,6 +41,8 @@ header: ノベルゲームとしての Web フロントエンド | su8ru
 
 ![bg 100% right:64%](images/works.png)
 
+フロントエンドがすき
+
 [su8ru.dev](https://su8ru.dev)
 
 ---
