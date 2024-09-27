@@ -10,6 +10,8 @@ footer: © su8ru 2023
   @ 2023-12-15 合同 LT 会
 - [ノベルゲームとしての Web フロントエンド](/240830-seb03)
   @ 2024-08-30 SAPPORO ENGINEER BASE #03
+- [xremap のすゝめ](/240921-hnsadev01)
+  @ 2024-09-21 函館本線沿線勉強会 ~HNSAdev~ @札幌 1 号車
 
 [su8ru.dev](https://su8ru.dev)
 [su8ru/slides](https://github.com/su8ru/slides)
