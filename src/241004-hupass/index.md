@@ -44,15 +44,15 @@ header: 北大生向け時間割アプリ『Hupass』のこれまでとこれか
 
 ---
 
-## ![bg 85%](https://github.com/su8ru/luminis/blob/main/src/content/works/images/hupass-timetable.png?raw=true)
+![bg 95%](images/timetable.png)
 
 ---
 
-## ![bg 85%](https://github.com/su8ru/luminis/blob/main/src/content/works/images/hupass-details.png?raw=true)
+![bg 95%](images/search.png)
 
 ---
 
-北大のシラバスデータを元にした、
+## 北大のシラバスデータを元にした、
 
 # 北大生の北大生による北大生のための時間割アプリ
 
@@ -93,21 +93,11 @@ https://mikan-foundation.org/2023/04/makers-1/
 
 ---
 
-## 2023/9 - 後期滑り込み復旧
-
-![bg right 80%](images/recover.png)
-
----
-
 ## Hupass なしで新学期を迎えるなんて考えられない！
 
 ![h:300](images/dm.png)
 
 ### → ぜひ協力してくれないかとのお返事
-
----
-
-### Q. iNAZO や JagaJaga は生きてる。じゃあなんで落ちてたんだ…？
 
 ---
 
@@ -118,6 +108,12 @@ https://mikan-foundation.org/2023/04/makers-1/
 夏休みも研究で忙しく、Hupass の復旧作業をしている余裕がなかった
 
 #### → 開発体制の刷新と安定を目指すことに
+
+---
+
+## 2023/9 - 後期滑り込み復旧
+
+![bg right 80%](images/recover.png)
 
 ---
 
@@ -138,9 +134,9 @@ status: 随時実施中（2023/10 ～）
 
 status: 実施済み（2024/9）
 
-**RAM**: 512 MB → **2 GB**
+**RAM**: 512 MB → 2 GB
 
-**CPU**: 1 コア → **3 コア**
+**CPU**: 1 コア → 3 コア
 
 ---
 
@@ -152,17 +148,32 @@ status: これから（2025/3 目標）
 
 ### Django (Python) → Echo (Go)
 
-- モデルの再設計
-- スキーマ駆動開発？
+- モデルの再設計（class から course への rename など）
+- スキーマ駆動開発
 - テストの導入
+
+---
+
+## 新機能の追加・既存機能の改善
+
+- 全学必修授業の自動登録（2024/3 リリース）
+- 非ログインで動作するモードを廃止（2025/3 予定）
+- 授業のブックマーク（ほしいよね 未着手）
+- ヘルプの用意
+- などなど……
+
+---
+
+## とにかくエンジニアが大変
 
 ---
 
 # 開発メンバー募集中！！
 
 Hupass はまだまだやることたくさん
-
 ユーザーからの要望もたくさん
+
+Discord `#times-su8ru` か Twitter `@Hupass_info` へぜひ！
 
 ---
 
