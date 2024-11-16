@@ -4,11 +4,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Noto+Sans+JP&display=swap');
 
 h1 {
-  color: #63767e;
+  color: var(--su8ru-main);
+  margin-top: 1rem;
+  margin-bottom: 0;
+  line-height: 1.7;
+}
+
+h2 {
+  margin-top: 1rem;
+  margin-bottom: 0;
 }
 
 h1 + h2 {
   margin-top: 0;
+}
+
+p,
+ul,
+ol,
+blockquote {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+li + li,
+li > ul {
+  margin-top: 0.4rem;
+}
+li::marker {
+  color: var(--su8ru-gray);
 }
 
 section::after {
@@ -22,9 +46,19 @@ section::after {
   gap: 1rem;
 }
 
+:root {
+  --su8ru-main: oklch(0.65 0.05 240);
+  --su8ru-dark: oklch(0.5 0.05 240);
+  --su8ru-gray: oklch(0.6 0.03 240);
+  --su8ru-black: oklch(0.25 0.02 240);
+}
+
 section {
   font-family: Inter, 'Noto Sans JP', sans-serif !important;
-  --color-accent-fg: #007ab0;
+  --color-accent-fg: var(--su8ru-dark);
+  --header-footer-color: var(--su8ru-gray);
+  --paginate-color: var(--su8ru-gray);
+  --color-fg-default: var(--su8ru-black);
 }
 
 pre {
