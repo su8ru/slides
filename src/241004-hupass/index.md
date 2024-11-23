@@ -1,7 +1,7 @@
 ---
 marp: true
 paginate: true
-theme: su8ru
+theme: su8ru-white
 footer: 2024-10-04 | HUIT 夏休み明け LT 会
 ---
 

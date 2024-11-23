@@ -1,7 +1,7 @@
 ---
 marp: true
 paginate: true
-theme: su8ru
+theme: su8ru-white
 footer: 2024-11-15 | HUIT JPHACKS 振り返り・LT 会
 ---
 

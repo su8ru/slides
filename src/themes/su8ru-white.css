@@ -1,4 +1,4 @@
-/* @theme su8ru */
+/* @theme su8ru-white */
 
 @import 'default';
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Noto+Sans+JP&display=swap');
@@ -39,29 +39,23 @@ section::after {
   content: attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
 }
 
-.col2 {
+.columns {
+  color: #272a2c;
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
 }
-.col3 {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1rem;
-}
 
 :root {
-  --su8ru-main: oklch(0.6 0.06 245);
-  --su8ru-white: oklch(0.96 0.01 245);
-  --su8ru-gray: oklch(0.6 0.04 245);
-  --su8ru-black: oklch(0.4 0.03 245);
+  --su8ru-main: oklch(0.65 0.05 240);
+  --su8ru-dark: oklch(0.5 0.05 240);
+  --su8ru-gray: oklch(0.6 0.03 240);
+  --su8ru-black: oklch(0.25 0.02 240);
 }
 
 section {
   font-family: Inter, 'Noto Sans JP', sans-serif !important;
-  background: var(--su8ru-white);
-
-  --color-accent-fg: var(--su8ru-main);
+  --color-accent-fg: var(--su8ru-dark);
   --header-footer-color: var(--su8ru-gray);
   --paginate-color: var(--su8ru-gray);
   --color-fg-default: var(--su8ru-black);

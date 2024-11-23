@@ -1,7 +1,7 @@
 ---
 marp: true
 paginate: true
-theme: su8ru
+theme: su8ru-white
 footer: 2024-08-30 | SAPPORO ENGINEER BASE #03 | #seb_sapporo
 ---
 

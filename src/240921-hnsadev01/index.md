@@ -1,7 +1,7 @@
 ---
 marp: true
 paginate: true
-theme: su8ru
+theme: su8ru-white
 footer: 2024-09-21 | 函館本線沿線勉強会 ~HNSAdev~ @札幌 1 号車 | #hnsadev
 ---
 
