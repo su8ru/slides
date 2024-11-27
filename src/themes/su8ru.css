@@ -1,18 +1,31 @@
 /* @theme su8ru */
 
 @import 'default';
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=JetBrains+Mono:wght@100..800&family=Zen+Kaku+Gothic+New:wght@500;700&display=swap');
 
 h1 {
-  color: var(--su8ru-main);
+  background-image: linear-gradient(
+    90deg,
+    var(--su8ru-accent) 0%,
+    var(--su8ru-accent2) 80%
+  );
+  background-clip: text;
+  color: transparent;
   margin-top: 1rem;
   margin-bottom: 0;
-  line-height: 1.7;
+  line-height: 1.6;
+  font-size: 1.6rem;
+}
+
+img + h1 {
+  margin-top: 0;
 }
 
 h2 {
+  color: var(--su8ru-main);
   margin-top: 1rem;
   margin-bottom: 0;
+  font-size: 1.2rem;
 }
 
 h1 + h2 {
@@ -21,9 +34,14 @@ h1 + h2 {
 
 p,
 ul,
-ol,
-blockquote {
+ol {
   margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+pre,
+blockquote {
+  margin-top: 1rem;
   margin-bottom: 0;
 }
 
@@ -50,27 +68,49 @@ section::after {
   gap: 1rem;
 }
 
+.col2 > * {
+  margin: 0;
+}
+
 :root {
-  --su8ru-main: oklch(0.6 0.06 245);
-  --su8ru-white: oklch(0.96 0.01 245);
-  --su8ru-gray: oklch(0.6 0.04 245);
-  --su8ru-black: oklch(0.4 0.03 245);
+  --su8ru-main: oklch(0.6 0.08 245);
+  --su8ru-accent: oklch(0.75 0.1 245);
+  --su8ru-accent2: oklch(0.75 0.1 185);
+  --su8ru-white: oklch(0.96 0.02 245);
+  --su8ru-gray: oklch(0.55 0.04 245);
+  --su8ru-black: oklch(0.39 0.03 245);
 }
 
 section {
-  font-family: Inter, 'Noto Sans JP', sans-serif !important;
+  font-family: Inter, 'Zen Kaku Gothic New', sans-serif;
+  --fontStack-monospace: 'JetBrains Mono', monospace;
+  font-weight: 500;
+
   background: var(--su8ru-white);
 
-  --color-accent-fg: var(--su8ru-main);
+  --fgColor-accent: var(--su8ru-main);
+  --fgColor-default: var(--su8ru-black);
   --header-footer-color: var(--su8ru-gray);
   --paginate-color: var(--su8ru-gray);
-  --color-fg-default: var(--su8ru-black);
+}
+
+strong {
+  font-weight: 700;
 }
 
 pre {
-  font-size: 0.7rem;
+  font-size: 0.5rem;
+  line-height: 1.5;
+  font-weight: 500;
 }
 
 img {
   background: none !important;
+}
+
+.qrcode {
+  display: block;
+  position: absolute;
+  right: 32px;
+  bottom: 70px;
 }

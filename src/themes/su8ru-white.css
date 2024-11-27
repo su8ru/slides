@@ -55,14 +55,15 @@ section::after {
 
 section {
   font-family: Inter, 'Noto Sans JP', sans-serif !important;
-  --color-accent-fg: var(--su8ru-dark);
+  --fgColor-accent: var(--su8ru-dark);
+  --fgColor-default: var(--su8ru-black);
   --header-footer-color: var(--su8ru-gray);
   --paginate-color: var(--su8ru-gray);
-  --color-fg-default: var(--su8ru-black);
 }
 
 pre {
-  font-size: 0.7rem;
+  font-size: 0.5rem;
+  line-height: 1.5;
 }
 
 img {
