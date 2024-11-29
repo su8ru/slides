@@ -3,6 +3,7 @@ marp: true
 paginate: true
 theme: su8ru
 footer: © su8ru 2023
+image: https://slides.su8.run/index.jpg
 ---
 
 # すばるのスライド置き場
