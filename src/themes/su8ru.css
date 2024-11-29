@@ -28,10 +28,6 @@ h2 {
   font-size: 1.2rem;
 }
 
-h1 + h2 {
-  margin-top: 0;
-}
-
 p,
 ul,
 ol {
@@ -74,9 +70,9 @@ section::after {
 
 :root {
   --su8ru-main: oklch(0.6 0.08 245);
-  --su8ru-accent: oklch(0.75 0.1 245);
-  --su8ru-accent2: oklch(0.75 0.1 185);
-  --su8ru-white: oklch(0.98 0.01 245);
+  --su8ru-accent: oklch(0.75 0.12 245);
+  --su8ru-accent2: oklch(0.75 0.12 185);
+  --su8ru-white: oklch(0.95 0.01 245);
   --su8ru-gray: oklch(0.55 0.04 245);
   --su8ru-black: oklch(0.39 0.03 245);
 }
@@ -90,6 +86,7 @@ section {
 
   --fgColor-accent: var(--su8ru-main);
   --fgColor-default: var(--su8ru-black);
+  --fgColor-muted: var(--su8ru-gray);
   --header-footer-color: var(--su8ru-gray);
   --paginate-color: var(--su8ru-gray);
 }
@@ -99,7 +96,7 @@ strong {
 }
 
 pre {
-  font-size: 0.5rem;
+  font-size: 0.7rem;
   line-height: 1.5;
   font-weight: 500;
 }
@@ -113,4 +110,22 @@ img {
   position: absolute;
   right: 32px;
   bottom: 70px;
+}
+
+blockquote > blockquote > blockquote {
+  font-size: 50%;
+  font-weight: 400;
+  padding: 0;
+  padding-top: 0.25rem;
+  margin: 0;
+  border: 0;
+  border-top: 0.01rem solid var(--su8ru-gray);
+  position: absolute;
+  width: 800px;
+  bottom: 80px;
+  left: 80px;
+
+  & > ol > li {
+    margin-top: 0;
+  }
 }
