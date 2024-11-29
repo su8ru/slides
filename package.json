@@ -6,9 +6,10 @@
   "scripts": {
     "dev": "marp --engine ./engine.mjs -s . --html",
     "build:clean": "rimraf dist",
-    "build:html": "marp  --engine ./engine.mjs",
+    "build:html": "marp --engine ./engine.mjs",
+    "build:ogimage": "marp --image jpeg --allow-local-files",
     "build:images": "cpx \"src/**/images/*\" dist",
-    "build": "run-s build:*"
+    "build": "run-p build:*"
   },
   "author": "",
   "license": "MIT",

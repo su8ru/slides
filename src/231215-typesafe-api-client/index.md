@@ -3,6 +3,7 @@ marp: true
 paginate: true
 theme: su8ru-white
 footer: 2023-12-15 | 合同 LT 会
+image: https://slides.su8.run/231215-typesafe-api-client/index.jpg
 ---
 
 # REST API の型定義とドキュメンテーション

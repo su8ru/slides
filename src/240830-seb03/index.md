@@ -3,6 +3,7 @@ marp: true
 paginate: true
 theme: su8ru-white
 footer: 2024-08-30 | SAPPORO ENGINEER BASE #03 | #seb_sapporo
+image: https://slides.su8.run/240830-seb03/index.jpg
 ---
 
 # ノベルゲームとしての Web フロントエンド

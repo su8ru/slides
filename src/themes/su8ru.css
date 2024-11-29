@@ -76,7 +76,7 @@ section::after {
   --su8ru-main: oklch(0.6 0.08 245);
   --su8ru-accent: oklch(0.75 0.1 245);
   --su8ru-accent2: oklch(0.75 0.1 185);
-  --su8ru-white: oklch(0.96 0.02 245);
+  --su8ru-white: oklch(0.98 0.01 245);
   --su8ru-gray: oklch(0.55 0.04 245);
   --su8ru-black: oklch(0.39 0.03 245);
 }

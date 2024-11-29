@@ -3,6 +3,7 @@ marp: true
 paginate: true
 theme: su8ru-white
 footer: 2024-11-15 | HUIT JPHACKS 振り返り・LT 会
+image: https://slides.su8.run/241115-typespec/index.jpg
 ---
 
 # OSS にデカめの貢献してみた

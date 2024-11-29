@@ -3,6 +3,7 @@ marp: true
 paginate: true
 theme: su8ru-white
 footer: 2024-10-04 | HUIT 夏休み明け LT 会
+image: https://slides.su8.run/241004-hupass/index.jpg
 ---
 
 # 北大生向け時間割アプリ『Hupass』の <br /> これまでとこれから
