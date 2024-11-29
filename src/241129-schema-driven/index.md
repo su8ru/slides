@@ -3,6 +3,7 @@ marp: true
 paginate: true
 theme: su8ru
 footer: 2024-11-29 | 北大合同勉強会 2025 冬
+image: https://slides.su8.run/241129-schema-driven/index.jpg
 ---
 
 # REST API 型安全を目指して<br />〜スキーマ駆動開発を支える技術〜
@@ -15,7 +16,7 @@ footer: 2024-11-29 | 北大合同勉強会 2025 冬
   }
 </style>
 
-<img src="https://images.su8ru.dev/outline_800.png" class="profile-icon"  />
+<img src="https://images.su8ru.dev/outline_800.png" class="profile-icon" width="90px" height="90px" />
 
 ### すばる / su8ru
 
@@ -25,12 +26,12 @@ footer: 2024-11-29 | 北大合同勉強会 2025 冬
 
 <https://slides.su8.run/241129-schema-driven>
 
-<img class="qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&color=5685ad&bgcolor=e7f4ff&qzone=2&data=https://slides.su8.run/241129-schema-driven">
+<img class="qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&color=5685ad&bgcolor=fff&qzone=2&data=https://slides.su8.run/241129-schema-driven">
 
 ---
 
 <!--
-header: API 型安全を目指して 〜スキーマ駆動開発を支える技術〜 | su8ru
+header: REST API 型安全を目指して 〜スキーマ駆動開発を支える技術〜 | su8ru
 -->
 
 <style scoped>
@@ -54,7 +55,11 @@ header: API 型安全を目指して 〜スキーマ駆動開発を支える技�
 - Twitter: [@su8ru\__n_](https://twitter.com/su8ru_n) <- New!!
 - GitHub: [@su8ru](https://github.com/su8ru)
 - すきなもの：TypeScript / 初音ミク / 鏑木ろこ / ヰ世界情緒
-- 近況：お仕事でフロントエンドを、趣味でバックエンドを書いています
+- お仕事でフロントエンドを、趣味でバックエンドを書いています
+
+---
+
+![bg 92%](./images/timetable.png)
 
 ---
 
@@ -77,7 +82,7 @@ header: API 型安全を目指して 〜スキーマ駆動開発を支える技�
 
 ---
 
-# 最強のライブラリを作ろう！
+# 最強の API 定義用ライブラリを作ろう！
 
 ---
 
@@ -207,4 +212,46 @@ components:
 
 ---
 
+## すばらしい :tada:
+
+- TypeScript の書き味で書ける
+- OpenAPI 独特の冗長な記法に悪戦苦闘する必要がない
+
 ---
+
+## OpenAPI にはメリットもある
+
+1. コードジェネレーターが豊富
+   - openapi-ts
+   - openapi-generator
+   - oapi-codegen
+   - ogen
+2. ドキュメントツールが豊富
+   - Swagger UI
+   - Redoc
+
+---
+
+## OpenAPI から client 用コードを生成 <- よくある
+
+- openapi-ts
+- openapi-typescript
+- openapi-generator
+
+## OpenAPI から server 用コードを生成 <- あんまり見ない
+
+- openapi-generator (TypeScript)
+- ogen (Go)
+- oapi-codegen (Go)
+
+---
+
+## たどり着いた開発体制
+
+![](./images/flow.png)
+
+---
+
+## 今日お話すること
+
+![](./images/flow-server.png)
