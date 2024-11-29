@@ -3,6 +3,10 @@ marp: true
 paginate: true
 theme: su8ru
 footer: 2024-11-29 | 北大合同勉強会 2025 冬
+
+title: REST API 型安全を目指して 〜スキーマ駆動開発を支える技術〜
+description: 2024-11-29 | 北大合同勉強会 2025 冬
+author: すばる / su8ru
 image: https://slides.su8.run/241129-schema-driven/index.jpg
 ---
 
