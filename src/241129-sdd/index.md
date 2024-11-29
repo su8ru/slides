@@ -489,5 +489,11 @@ Discussion -> Issue -> Pull Request と段階を踏んで半月ほどかかっ�
 # まとめ
 
 - サーバー実装のフルリプレースを期に、スキーマ駆動開発を導入してみた
+- API スキーマ由来の型による制約が効くことで開発体験を向上
 - **TypeSpec**：TS ライクな記法から OpenAPI を生成してくれて便利
-- **oapi-codegen**
+  https://typespec.io
+- **oapi-codegen**：OpenAPI から Go のインターフェースを生成してくれる
+  GitHub: [oapi-codegen/oapi-codegen](https://github.com/oapi-codegen/oapi-codegen)
+- OSS に貢献すると楽しい
+
+ご清聴ありがとうございました :pray:
