@@ -29,7 +29,7 @@ image: https://slides.su8.run/250330-glt06/index.jpg
 
 2025-03-30 | 限界 LT #6
 
-<https://slides.su8.run/250330-glt6>
+<https://slides.su8.run/250330-glt06>
 
 ---
 
