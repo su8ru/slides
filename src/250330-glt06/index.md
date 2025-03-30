@@ -8,7 +8,7 @@ footer: 2025-03-30 | 限界 LT #6
 title: VIEWSTATE へのインデックスアクセスをやめたい | su8ru
 description: 2025-03-30 | 限界 LT #6
 author: すばる / su8ru
-# image: https://slides.su8.run/250330-glt06/index.jpg
+image: https://slides.su8.run/250330-glt06/index.jpg
 ---
 
 # VIEWSTATE へのインデックスアクセスをやめたい
