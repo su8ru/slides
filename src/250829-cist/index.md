@@ -242,13 +242,31 @@ Cloudflare > 自分がネームサーバーじゃないから設定できない�
 
 ---
 
-## この 2 つの TXT レコードを手作業で設定することで認証を突破できた
+su8ru > `page.ljus.art` を **CNAME でプロキシ**するから TLS 証明書お願いね
 
-```
-_cf-custom-hostname.2ji-yellmovie.ljus.art TXT 10133abc-d6e7-4a4e-a937-bf306385c0a6
+Cloudflare > @認証局 `page.ljus.art` の認証をお願いします
 
-_acme-challenge.2ji-yellmovie.ljus.art TXT 7k046tAHTBnkBgqNIQfmiTQyN0OP4AGkN6nxWhu8KDM
-```
+認証局 > この TXT レコードを設定して、あなたがドメインの所有者って証明してね
+
+Cloudflare > @su8ru この TXT レコードを設定してください
+
+su8ru > @先方 お手数ですがこちらの TXT レコードを設定していただけますか :pray:
+
+先方 > （お名前.com Navi と格闘）
+
+認証局 > Cloudflare に指定した TXT レコードが返ってきた！よさそう！合格！
+
+---
+
+# めでたし
+
+---
+
+# 宣伝
+
+---
+
+![bg 81%](./images/ishikari.png)
 
 ---
 
