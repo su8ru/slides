@@ -30,7 +30,7 @@ image: https://slides.su8.run/250829-cist/index.jpg
 
 2025-08-29 | LT 会 in 公立千歳科学技術大学 #しすかん
 
-https://slides.su8.run/250801-huit-astro
+https://slides.su8.run/250829-cist
 
 ---
 
