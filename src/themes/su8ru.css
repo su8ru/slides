@@ -129,3 +129,7 @@ blockquote > blockquote > blockquote {
     margin-top: 0;
   }
 }
+
+s {
+  opacity: 0.7;
+}
