@@ -84,6 +84,8 @@ section {
 
   background: var(--su8ru-white);
 
+  border-radius: 1rem;
+
   --fgColor-accent: var(--su8ru-main);
   --fgColor-default: var(--su8ru-black);
   --fgColor-muted: var(--su8ru-gray);
