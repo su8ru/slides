@@ -1,5 +1,5 @@
 {
-  "name": "su8ru-slides",
+  "name": "slides",
   "private": true,
   "version": "1.0.0",
   "description": "",
@@ -10,13 +10,16 @@
     "build:html": "marp --engine ./engine.mjs",
     "build:ogimage": "marp --image jpeg --allow-local-files",
     "build:images": "cpx \"src/**/images/*\" dist",
-    "build": "pnpm run build:clean && pnpm run build:html && pnpm run build:ogimage && pnpm run build:images"
+    "build": "pnpm run build:clean && pnpm run build:html && pnpm run build:ogimage && pnpm run build:images",
+    "cf:dev": "wrangler dev",
+    "cf:deploy": "pnpm run build && wrangler deploy"
   },
   "author": "",
   "devDependencies": {
     "@marp-team/marp-cli": "^4.3.1",
     "@shikijs/markdown-it": "^4.0.2",
     "cpx2": "^8.0.2",
-    "rimraf": "^6.1.3"
+    "rimraf": "^6.1.3",
+    "wrangler": "^4.83.0"
   }
 }
