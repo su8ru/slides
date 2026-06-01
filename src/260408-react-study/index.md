@@ -3,15 +3,16 @@ marp: true
 paginate: true
 math: mathjax
 theme: su8ru
-footer: 2026-04-08 | React.study vol.01@sapporo #hokkaido_js
 
 title: こんにちは useTransition
-description: 2026-04-08 | React.study vol.01@sapporo #hokkaido_js
 author: すばる / su8ru
-image: https://s.su8.run/260408-react-study/index.jpg
+talk:
+  slug: 260408-react-study
+  date: 2026-04-08
+  event: React.study vol.01@sapporo #hokkaido_js
 ---
 
-# こんにちは useTransition
+# {{ title }}
 
 <style scoped>
   .profile-icon {
@@ -28,14 +29,14 @@ image: https://s.su8.run/260408-react-study/index.jpg
 
 <br />
 
-2026-04-08 | React.study vol.01@sapporo #hokkaido_js
+{{ talk.label }}
 
-<https://s.su8.run/260408-react-study>
+<{{ urls.short }}>
 
 ---
 
 <!--
-header: こんにちは useTransition | su8ru
+header: {{ title }} | su8ru
 -->
 
 <style scoped>

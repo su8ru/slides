@@ -1,4 +1,5 @@
 import Shiki from '@shikijs/markdown-it';
+import { talkMetadataPlugin } from './lib/talk-metadata.mjs';
 
 const mdItShiki = await Shiki({
   themes: {
@@ -7,4 +8,4 @@ const mdItShiki = await Shiki({
   },
 });
 
-export default ({ marp }) => marp.use(mdItShiki);
+export default ({ marp }) => marp.use(talkMetadataPlugin).use(mdItShiki);
