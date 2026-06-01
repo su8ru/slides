@@ -1,0 +1,77 @@
+---
+marp: true
+paginate: true
+{{#if math}}
+math: {{math}}
+{{/if}}
+theme: su8ru
+
+title: {{{json title}}}
+author: "すばる / su8ru"
+talk:
+  slug: {{{json slug}}}
+  date: {{{json date}}}
+  event: {{{json event}}}
+---
+
+{{{{raw}}}}
+# {{ title }}
+
+<style scoped>
+  .profile-icon {
+    width: 90px;
+    float: left;
+    margin-right: 16px;
+    mix-blend-mode: multiply;
+  }
+
+</style>
+
+<img src="https://images.su8ru.dev/ichika.png" class="profile-icon" width="90px" height="90px" />
+
+### すばる / su8ru
+
+<br />
+
+{{ talk.label }}
+
+{{ urls.short }}
+
+---
+
+<!--
+header: {{ title }} | su8ru
+-->
+
+<style scoped>
+  .profile-icon {
+    width: 400px;
+    position: absolute;
+    right: 70px;
+    top: 40px;
+    mix-blend-mode: multiply;
+  }
+
+  .profile-icon2 {
+    width: 200px;
+    position: absolute;
+    right: 20px;
+    top: 330px;
+  }
+
+</style>
+
+<img src="https://images.su8ru.dev/ichika.png" class="profile-icon" />
+
+<img src="https://images.su8ru.dev/outline_800.png" class="profile-icon2" />
+
+# 自己紹介
+
+## すばる / su8ru
+
+- 北海道大学工学部情エレ 4 年
+- サークル: HUIT ex-部長 / Hupass
+- Twitter: [@su8ru\__n_](https://twitter.com/su8ru_n) , GitHub: [@su8ru](https://github.com/su8ru)
+
+---
+{{{{/raw}}}}
