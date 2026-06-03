@@ -6,7 +6,7 @@ footer: © su8ru 2025
 
 title: すばるのスライド置き場
 author: すばる / su8ru
-image: https://slides.su8.run/index.jpg
+image: https://slides.su8ru.dev/index.jpg
 ---
 
 # すばるのスライド置き場

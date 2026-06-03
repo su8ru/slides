@@ -4,7 +4,7 @@ paginate: true
 theme: su8ru
 transition: fade 0.3s
 
-title: "セルフホスト Postgres に Hyperdrive する"
+title: "セルフホスト PostgreSQL に Hyperdrive する"
 author: "すばる / su8ru"
 talk:
   slug: "260603-workers"

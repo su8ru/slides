@@ -8,7 +8,7 @@ footer: 2025-08-29 | LT会 in 公立千歳科学技術大学 #しすかん
 title: 二次創作合同誌の広報LPを作ったはなし
 description: 2025-08-29 | LT会 in 公立千歳科学技術大学 #しすかん
 author: すばる / su8ru
-image: https://slides.su8.run/250829-cist/index.jpg
+image: https://slides.su8ru.dev/250829-cist/index.jpg
 ---
 
 # 二次創作合同誌の広報 LP を作ったはなし
@@ -30,7 +30,7 @@ image: https://slides.su8.run/250829-cist/index.jpg
 
 2025-08-29 | LT 会 in 公立千歳科学技術大学 #しすかん
 
-https://slides.su8.run/250829-cist
+https://slides.su8ru.dev/250829-cist
 
 ---
 

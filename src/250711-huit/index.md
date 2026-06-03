@@ -8,7 +8,7 @@ footer: 2025-07-11 | Marp でスライド作成入門
 title: Hupass の講義検索を Elasticsearch にしたい
 description: 2025-07-11 | Marp でスライド作成入門
 author: すばる / su8ru
-image: https://slides.su8.run/250711-huit/index.jpg
+image: https://slides.su8ru.dev/250711-huit/index.jpg
 ---
 
 # Hupass の講義検索を Elasticsearch にしたい
@@ -29,7 +29,7 @@ image: https://slides.su8.run/250711-huit/index.jpg
 
 2025-07-11 | Marp でスライド作成入門
 
-<https://slides.su8.run/250711-huit>
+<https://slides.su8ru.dev/250711-huit>
 
 ---
 

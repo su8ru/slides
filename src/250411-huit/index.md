@@ -8,7 +8,7 @@ footer: 2025-04-11 | HUIT 春の大新歓 2025 Day1
 title: 爆速できれいな LT スライド作りを支える技術 | su8ru
 description: 2025-04-11 | HUIT 春の大新歓 2025 Day1
 author: すばる / su8ru
-image: https://slides.su8.run/250411-huit/index.jpg
+image: https://slides.su8ru.dev/250411-huit/index.jpg
 ---
 
 # 爆速できれいな LT スライド作りを支える技術
@@ -29,7 +29,7 @@ image: https://slides.su8.run/250411-huit/index.jpg
 
 2025-04-11 | HUIT 春の大新歓 2025 Day1
 
-<https://slides.su8.run/250411-huit>
+<https://slides.su8ru.dev/250411-huit>
 
 ---
 
@@ -199,7 +199,7 @@ header: 爆速できれいな LT スライド作りを支える技術 | su8ru
 - 私は Cloudflare Pages を使っています
 - `marp-cli` は HTML + CSS + JS を生成するので、
   これをデプロイしてあげるとスライドをブラウザで見れる
-  - <https://slides.su8.run>
+  - <https://slides.su8ru.dev>
 
 ---
 

@@ -3,7 +3,7 @@ marp: true
 paginate: true
 theme: su8ru-white
 footer: 2024-09-21 | 函館本線沿線勉強会 ~HNSAdev~ @札幌 1 号車 | #hnsadev
-image: https://slides.su8.run/240921-hnsadev01/index.jpg
+image: https://slides.su8ru.dev/240921-hnsadev01/index.jpg
 ---
 
 # xremap のすゝめ
@@ -12,7 +12,7 @@ image: https://slides.su8.run/240921-hnsadev01/index.jpg
 
 2024-09-21 | 函館本線沿線勉強会 ~HNSAdev~ @札幌 1 号車 | #hnsadev
 
-[slides.su8.run/240921-hnsadev01](https://slides.su8.run/240921-hnsadev01)
+[slides.su8ru.dev/240921-hnsadev01](https://slides.su8ru.dev/240921-hnsadev01)
 
 ---
 

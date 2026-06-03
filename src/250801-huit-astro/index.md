@@ -8,7 +8,7 @@ footer: 2025-08-01 | HUIT 通常活動
 title: Astro でポートフォリオを作ろう
 description: 2025-08-01 | HUIT 通常活動
 author: すばる / su8ru
-image: https://slides.su8.run/250801-huit-astro/index.jpg
+image: https://slides.su8ru.dev/250801-huit-astro/index.jpg
 ---
 
 # Astro でポートフォリオを作ろう
@@ -29,7 +29,7 @@ image: https://slides.su8.run/250801-huit-astro/index.jpg
 
 2025-08-01 | HUIT 通常活動
 
-https://slides.su8.run/250801-huit-astro
+https://slides.su8ru.dev/250801-huit-astro
 
 ---
 

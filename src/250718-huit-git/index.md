@@ -8,7 +8,7 @@ footer: 2025-07-18 | HUIT 通常活動
 title: Git をマスターして Cloudflare にデプロイしよう
 description: 2025-07-18 | HUIT 通常活動
 author: すばる / su8ru
-image: https://slides.su8.run/250718-huit-git/index.jpg
+image: https://slides.su8ru.dev/250718-huit-git/index.jpg
 ---
 
 # Git をマスターして Cloudflare にデプロイしよう
@@ -29,7 +29,7 @@ image: https://slides.su8.run/250718-huit-git/index.jpg
 
 2025-07-11 | HUIT 通常活動
 
-<https://slides.su8.run/250718-huit-git>
+<https://slides.su8ru.dev/250718-huit-git>
 
 ---
 

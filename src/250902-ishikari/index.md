@@ -8,7 +8,7 @@ footer: 2025-09-02 | 札幌 IT 石狩鍋 #3 - #it_ishikari
 title: レガシーバックエンドを API スキーマ駆動開発で再構築する
 description: 2025-09-02 | 札幌 IT 石狩鍋 #3 - #it_ishikari
 author: すばる / su8ru
-image: https://slides.su8.run/250902-ishikari/index.jpg
+image: https://slides.su8ru.dev/250902-ishikari/index.jpg
 ---
 
 # レガシーバックエンドを<br>API スキーマ駆動開発で再構築する

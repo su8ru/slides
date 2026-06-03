@@ -3,7 +3,7 @@ marp: true
 paginate: true
 theme: su8ru-white
 footer: 2024-08-30 | SAPPORO ENGINEER BASE #03 | #seb_sapporo
-image: https://slides.su8.run/240830-seb03/index.jpg
+image: https://slides.su8ru.dev/240830-seb03/index.jpg
 ---
 
 # ノベルゲームとしての Web フロントエンド
@@ -12,7 +12,7 @@ image: https://slides.su8.run/240830-seb03/index.jpg
 
 2024-08-30 | SAPPORO ENGINEER BASE #03 | #seb_sapporo
 
-[slides.su8.run/240830-seb03](https://slides.su8.run/240830-seb03)
+[slides.su8ru.dev/240830-seb03](https://slides.su8ru.dev/240830-seb03)
 
 ---
 
@@ -353,6 +353,6 @@ observer.observe(target, {
 
 ご清聴ありがとうございました！
 
-- スライド：[slides.su8.run/240830-seb03](https://slides.su8.run/240830-seb03)
+- スライド：[slides.su8ru.dev/240830-seb03](https://slides.su8ru.dev/240830-seb03)
 - Twitter: [@su8ru_n](https://twitter.com/su8ru_n)
 - かわいい名刺を作ったのでぜひもらってください

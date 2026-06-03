@@ -7,7 +7,7 @@ footer: 2024-11-15 | HUIT JPHACKS 振り返り・LT 会
 title: OSS にデカめの貢献してみた | su8ru
 description: 2024-11-15 | HUIT JPHACKS 振り返り・LT 会
 author: すばる / su8ru
-image: https://slides.su8.run/241115-typespec/index.jpg
+image: https://slides.su8ru.dev/241115-typespec/index.jpg
 ---
 
 # OSS にデカめの貢献してみた
@@ -16,7 +16,7 @@ image: https://slides.su8.run/241115-typespec/index.jpg
 
 2024-11-15 | HUIT JPHACKS 振り返り・LT 会
 
-<https://slides.su8.run/241115-typespec>
+<https://slides.su8ru.dev/241115-typespec>
 
 ---
 
