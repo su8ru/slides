@@ -2,3 +2,4 @@ themeSet: ./src/themes
 inputDir: ./src
 output: ./dist
 lang: ja
+html: true
